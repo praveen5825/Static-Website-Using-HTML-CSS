@@ -1,0 +1,12 @@
+:root{
+    --formet:2px 45px;
+
+    
+    --primery:#FFEBE0;
+    --secondary:#150801;
+    --accent:#E7CBCB;
+
+    --heading-font: 'Roboto Condensed', sans-serif;
+    --description-font: 'Roboto Slab', serif;
+    --ita: 'Italianno', cursive;
+}

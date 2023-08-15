@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1{
+            height: 100vh;
+            background-color: lightblue;
+            border:  solid black;
+            display: grid;
+            gap: 5px;
+            grid-template-columns: 450px 70px 100px 450px;
+            grid-template-rows:100px 250px 250px;
+            justify-content: center;
+        }
+        footer{
+            background-color: red;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            display: grid;
+            justify-content: center;
+        }
+        .s1{
+            
+            background-color: green;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start:1 ;
+            grid-column-end: 3;
+        }
+        .s2{
+            background-color: rgb(15, 128, 90);
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+        .s3{
+            background-color: rgb(43, 21, 21);
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .s4{
+            background-color: greenyellow;
+            grid-column-start: 3;
+            grid-column-end: 5;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <footer>jdfhjahfjkjfjfaha fhjhfjh</footer>
+        <main class="s1"><i class="fa-solid fa-basket-shopping"></i></main>
+        <main class="s2">2</main>
+        <main class="s3">3</main>
+        <main class="s4">4</main>
+    </div>
+</body>
+</html>
